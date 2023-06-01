@@ -1,0 +1,1613 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 500px;
+    background-color: #081b29;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+header .autom {
+    width: 100%;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+header .container {
+    width: 1440px;
+    height: 35px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .container .navbar nav ul {
+    display: flex;
+    padding-top: 15px;
+    
+}
+
+header .container .logo a {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    position: relative;
+    top: 15px;
+}
+
+header .container .navbar nav ul li a {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00abf0;
+    padding-left: 60px;
+    transition: 1s;
+    
+}
+
+header .container .navbar nav ul li a:hover {
+    color: white;
+}
+
+header .parag {
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+header .parag h1 {
+    color: #00abf0;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header .parag p {
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.button {
+    width: 310px;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .but1 {
+    width: 150px;
+    height: 30px;
+    background-color: rgb(45, 47, 47);
+    border-radius: 5px;
+    transition: 1s;
+}
+
+header .but1:hover {
+    background-color: #00abf0;
+}
+
+header .but1 p {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 6px;
+}
+
+header .but2 {
+    width: 150px;
+    height: 30px;
+    background-color: rgb(45, 47, 47);
+    border-radius: 5px;
+    transition: 1s;
+}
+
+header .but2:hover {
+    background-color: #00abf0;
+}
+
+header .but2 p {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 6px;
+}
+
+/* ========================= Header end */
+
+/*-------------------------- main start */
+
+main h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00abf0;
+}
+
+main .forimages {
+    width: 1440px;
+    height: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main .image1 {
+    width: 470px;
+    height: 450px;
+    border: 1px solid black
+}
+
+main .image1 .topimg {
+    width: 470px;
+    height: 300px;
+    background: url(./image/underwater1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .image1 .butimg {
+    background-color: rgb(48, 44, 44);
+    height: 150px;
+}
+
+main .image1 .butimg p {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+main .forwiew {
+    width: 450px;
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .forwiew .foron {
+    width: 100px;
+    display: flex;
+}
+
+main .forwiew .one .left {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+main .forwiew .one .left p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main .forwiew .one .right {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+main .forwiew .one .right p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main .forwiew .two p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*  */
+main .image2 {
+    width: 470px;
+    height: 450px;
+    border: 1px solid black
+}
+
+main .image2 .topimg {
+    width: 470px;
+    height: 300px;
+    background: url(./image/underwater2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .image2 .butimg {
+    background-color: rgb(48, 44, 44);
+    height: 150px;
+}
+
+main .image2 .butimg p {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+main .forwiew {
+    width: 450px;
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .forwiew .foron {
+    width: 100px;
+    display: flex;
+}
+
+main .forwiew .one .left {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+main .forwiew .one .left p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main .forwiew .one .right {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+main .forwiew .one .right p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main .forwiew .two p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*  */
+
+main .image3 {
+    width: 470px;
+    height: 450px;
+    border: 1px solid black
+}
+
+main .image3 .topimg {
+    width: 470px;
+    height: 300px;
+    background: url(./image/underwater3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .image3 .butimg {
+    background-color: rgb(48, 44, 44);
+    height: 150px;
+}
+
+main .image3 .butimg p {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+main .forwiew {
+    width: 450px;
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .forwiew .foron {
+    width: 100px;
+    display: flex;
+}
+
+main .forwiew .one .left {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+main .forwiew .one .left p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main .forwiew .one .right {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+main .forwiew .one .right p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main .forwiew .two p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*  */
+main .image4 {
+    width: 470px;
+    height: 450px;
+    border: 1px solid black
+}
+
+main .image4 .topimg {
+    width: 470px;
+    height: 300px;
+    background: url(./image/underwater4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .image4 .butimg {
+    background-color: rgb(48, 44, 44);
+    height: 150px;
+}
+
+main .image4 .butimg p {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+main .forwiew {
+    width: 450px;
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .forwiew .foron {
+    width: 100px;
+    display: flex;
+}
+
+main .forwiew .one .left {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+main .forwiew .one .left p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main .forwiew .one .right {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+main .forwiew .one .right p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main .forwiew .two p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*  */
+main .image5 {
+    width: 470px;
+    height: 450px;
+    border: 1px solid black
+}
+
+main .image5 .topimg {
+    width: 470px;
+    height: 300px;
+    background: url(./image/underwatere.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .image5 .butimg {
+    background-color: rgb(48, 44, 44);
+    height: 150px;
+}
+
+main .image5 .butimg p {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+main .forwiew {
+    width: 450px;
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .forwiew .foron {
+    width: 100px;
+    display: flex;
+}
+
+main .forwiew .one .left {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+main .forwiew .one .left p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main .forwiew .one .right {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+main .forwiew .one .right p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main .forwiew .two p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*  */
+main .image6 {
+    width: 470px;
+    height: 450px;
+    border: 1px solid black
+}
+
+main .image6 .topimg {
+    width: 470px;
+    height: 300px;
+    background: url(./image/menunderwater.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .image6 .butimg {
+    background-color: rgb(48, 44, 44);
+    height: 150px;
+}
+
+main .image6 .butimg p {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+main .forwiew {
+    width: 450px;
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .forwiew .foron {
+    width: 100px;
+    display: flex;
+}
+
+main .forwiew .one .left {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+main .forwiew .one .left p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main .forwiew .one .right {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+main .forwiew .one .right p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main .forwiew .two p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*  */
+main .image7 {
+    width: 470px;
+    height: 450px;
+    border: 1px solid black
+}
+
+main .image7 .topimg {
+    width: 470px;
+    height: 300px;
+    background: url(./image/men1underwater.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .image7 .butimg {
+    background-color: rgb(48, 44, 44);
+    height: 150px;
+}
+
+main .image7 .butimg p {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+main .forwiew {
+    width: 450px;
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .forwiew .foron {
+    width: 100px;
+    display: flex;
+}
+
+main .forwiew .one .left {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+main .forwiew .one .left p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main .forwiew .one .right {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+main .forwiew .one .right p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main .forwiew .two p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*  */
+
+/*  */
+main .image8 {
+    width: 470px;
+    height: 450px;
+    border: 1px solid black
+}
+
+main .image8 .topimg {
+    width: 470px;
+    height: 300px;
+    background: url(./image/underwater.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .image8 .butimg {
+    background-color: rgb(48, 44, 44);
+    height: 150px;
+}
+
+main .image8 .butimg p {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+main .forwiew {
+    width: 450px;
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .forwiew .foron {
+    width: 100px;
+    display: flex;
+}
+
+main .forwiew .one .left {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+main .forwiew .one .left p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main .forwiew .one .right {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+main .forwiew .one .right p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main .forwiew .two p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*  */
+main .image9 {
+    width: 470px;
+    height: 450px;
+    border: 1px solid black
+}
+
+main .image9 .topimg {
+    width: 470px;
+    height: 300px;
+    background: url(./image/underwater3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .image9 .butimg {
+    background-color: rgb(48, 44, 44);
+    height: 150px;
+}
+
+main .image9 .butimg p {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+main .forwiew {
+    width: 450px;
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .forwiew .foron {
+    width: 100px;
+    display: flex;
+}
+
+main .forwiew .one .left {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+main .forwiew .one .left p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main .forwiew .one .right {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+main .forwiew .one .right p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main .forwiew .two p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* ==================================== main two start */
+.main2 p {
+    text-align: center;
+    font-size: 30px;
+    color: #081b29;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main2 .ourplaces {
+    width: 1440px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.main2 .ourplaces .first {
+    width: 700px;
+    background: url(./image/kurs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #081b29;
+}
+
+.main2 .ourplaces .second {
+    width: 700px;
+    background: url(./image/kurs1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #081b29;
+}
+
+.h1 {
+    color: #00abf0;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*  */
+.main2 .forrent {
+    width: 1440px;
+    height: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
+
+.main2 .image1 {
+    width: 470px;
+    height: 450px;
+    border: 1px solid black
+}
+
+.main2 .image1 .toppimg {
+    width: 470px;
+    height: 300px;
+    background: url(./image/narsa1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main2 .image1 .buttimg {
+    background-color: rgb(48, 44, 44);
+    height: 150px;
+}
+
+.main2 .image1 .buttimg p {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.main2 .forwwiew {
+    width: 450px;
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main2 .forwwiew .forron {
+    width: 100px;
+    display: flex;
+}
+
+.main2 .forwwiew .onne .lefft {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.main2 .forwwiew .onne .lefft p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.main2 .forwwiew .onne .rigght {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.main2 .forwwiew .onne .rigght p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.main2 .forwwiew .twwo p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*  */
+.main2 .image2 {
+    width: 470px;
+    height: 450px;
+    border: 1px solid black
+}
+
+.main2 .image2 .toppimg {
+    width: 470px;
+    height: 300px;
+    background: url(./image/narsa2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main2 .image2 .buttimg {
+    background-color: rgb(48, 44, 44);
+    height: 150px;
+}
+
+.main2 .image2 .buttimg p {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.main2 .forwwiew {
+    width: 450px;
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main2 .forwwiew .forron {
+    width: 100px;
+    display: flex;
+}
+
+.main2 .forwwiew .onne .lefft {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.main2 .forwwiew .onne .lefft p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.main2 .forwwiew .onne .rigght {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.main2 .forwwiew .onne .rigght p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.main2 .forwwiew .twwo p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*  */
+.main2 .image3 {
+    width: 470px;
+    height: 450px;
+    border: 1px solid black
+}
+
+.main2 .image3 .toppimg {
+    width: 470px;
+    height: 300px;
+    background: url(./image/narsa3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main2 .image3 .buttimg {
+    background-color: rgb(48, 44, 44);
+    height: 150px;
+}
+
+.main2 .image3 .buttimg p {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.main2 .forwwiew {
+    width: 450px;
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main2 .forwwiew .forron {
+    width: 100px;
+    display: flex;
+}
+
+.main2 .forwwiew .onne .lefft {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.main2 .forwwiew .onne .lefft p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.main2 .forwwiew .onne .rigght {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.main2 .forwwiew .onne .rigght p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.main2 .forwwiew .twwo p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*  */
+.main2 .image4 {
+    width: 470px;
+    height: 450px;
+    border: 1px solid black
+}
+
+.main2 .image4 .toppimg {
+    width: 470px;
+    height: 300px;
+    background: url(./image/narsa4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main2 .image4 .buttimg {
+    background-color: rgb(48, 44, 44);
+    height: 150px;
+}
+
+.main2 .image4 .buttimg p {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.main2 .forwwiew {
+    width: 450px;
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main2 .forwwiew .forron {
+    width: 100px;
+    display: flex;
+}
+
+.main2 .forwwiew .onne .lefft {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.main2 .forwwiew .onne .lefft p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.main2 .forwwiew .onne .rigght {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.main2 .forwwiew .onne .rigght p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.main2 .forwwiew .twwo p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*  */
+.main2 .image5 {
+    width: 470px;
+    height: 450px;
+    border: 1px solid black
+}
+
+.main2 .image5 .toppimg {
+    width: 470px;
+    height: 300px;
+    background: url(./image/narsa5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main2 .image5 .buttimg {
+    background-color: rgb(48, 44, 44);
+    height: 150px;
+}
+
+.main2 .image5 .buttimg p {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.main2 .forwwiew {
+    width: 450px;
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main2 .forwwiew .forron {
+    width: 100px;
+    display: flex;
+}
+
+.main2 .forwwiew .onne .lefft {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.main2 .forwwiew .onne .lefft p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.main2 .forwwiew .onne .rigght {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.main2 .forwwiew .onne .rigght p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.main2 .forwwiew .twwo p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*  */
+.main2 .image6 {
+    width: 470px;
+    height: 450px;
+    border: 1px solid black
+}
+
+.main2 .image6 .toppimg {
+    width: 470px;
+    height: 300px;
+    background: url(./image/narsa6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main2 .image6 .buttimg {
+    background-color: rgb(48, 44, 44);
+    height: 150px;
+}
+
+.main2 .image6 .buttimg p {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.main2 .forwwiew {
+    width: 450px;
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main2 .forwwiew .forron {
+    width: 100px;
+    display: flex;
+}
+
+.main2 .forwwiew .onne .lefft {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.main2 .forwwiew .onne .lefft p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.main2 .forwwiew .onne .rigght {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.main2 .forwwiew .onne .rigght p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.main2 .forwwiew .twwo p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*  */
+.main2 .image7 {
+    width: 470px;
+    height: 450px;
+    border: 1px solid black
+}
+
+.main2 .image7 .toppimg {
+    width: 470px;
+    height: 300px;
+    background: url(./image/narsa7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main2 .image7 .buttimg {
+    background-color: rgb(48, 44, 44);
+    height: 150px;
+}
+
+.main2 .image7 .buttimg p {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.main2 .forwwiew {
+    width: 450px;
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main2 .forwwiew .forron {
+    width: 100px;
+    display: flex;
+}
+
+.main2 .forwwiew .onne .lefft {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.main2 .forwwiew .onne .lefft p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.main2 .forwwiew .onne .rigght {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.main2 .forwwiew .onne .rigght p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.main2 .forwwiew .twwo p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*  */
+.main2 .image8 {
+    width: 470px;
+    height: 450px;
+    border: 1px solid black
+}
+
+.main2 .image8 .toppimg {
+    width: 470px;
+    height: 300px;
+    background: url(./image/narsa8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main2 .image8 .buttimg {
+    background-color: rgb(48, 44, 44);
+    height: 150px;
+}
+
+.main2 .image8 .buttimg p {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.main2 .forwwiew {
+    width: 450px;
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main2 .forwwiew .forron {
+    width: 100px;
+    display: flex;
+}
+
+.main2 .forwwiew .onne .lefft {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.main2 .forwwiew .onne .lefft p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.main2 .forwwiew .onne .rigght {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.main2 .forwwiew .onne .rigght p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.main2 .forwwiew .twwo p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*  */
+.main2 .image9 {
+    width: 470px;
+    height: 450px;
+    border: 1px solid black
+}
+
+.main2 .image9 .toppimg {
+    width: 470px;
+    height: 300px;
+    background: url(./image/narsa9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main2 .image9 .buttimg {
+    background-color: rgb(48, 44, 44);
+    height: 150px;
+}
+
+.main2 .image9 .buttimg p {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.main2 .forwwiew {
+    width: 450px;
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main2 .forwwiew .forron {
+    width: 100px;
+    display: flex;
+}
+
+.main2 .forwwiew .onne .lefft {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.main2 .forwwiew .onne .lefft p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.main2 .forwwiew .onne .rigght {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.main2 .forwwiew .onne .rigght p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.main2 .forwwiew .twwo p {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.main2 .forrent .rent {
+    font-size: 40px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* =========================== main two end */
+
+footer .forfooter {
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+    margin: 30px auto 0;
+    background-color: #081b29;
+}
+
+footer .forfooter .container {
+    width: 1440px;
+    height: 20px;
+    margin: auto;
+}
+
+footer .forfooter .container nav {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .forfooter .container nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .forfooter .container nav ul a {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00abf0;
+    padding-left: 60px;
+    transition: 1s;
+}
+
+footer .forfooter .container nav ul a:hover {
+    color: whitesmoke;
+}
+
+.logo {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+
+footer .forfooter .set {
+    width: 1440px;
+    height: 200px;
+    margin: auto;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .forfooter .set .fot_left {
+    width: 700px;
+}
+footer .forfooter .set .fot_left p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    padding: 15px;
+}
+footer .forfooter .set .fot_left h6{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00abf0;
+    text-align: start;
+    padding: 15px;
+    
+}
+
+footer .forfooter .set .fot_right {
+    width: 600px;
+}
+footer .forfooter .set .fot_right p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    padding: 15px;
+}
+footer .forfooter .set .fot_right h6{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00abf0;
+    text-align: start;
+    padding: 15px;
+    
+}
+
